@@ -1,0 +1,45 @@
+!!! 5
+html
+	head
+		title Chaffin
+		meta(name='viewport', content='width=device-width, initial-scale=0.5')
+		link(rel='stylesheet', href='www/css/bootstrap.min.css')
+		style
+			body{
+				padding-top:60px;
+			}
+		link(rel='stylesheet', href="www/css/bootstrap-responsive.min.css")
+		
+		
+	body
+		div.navbar.navbar-inverse.navbar-fixed-top
+			div.navbar-inner
+				div.container
+					a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.brand(href="#") Chaffinch
+					div.nav-collapse.collapse
+						ul.nav
+							li
+								a(href="index.html") About
+							li.active
+								a(href="team.html") Team
+							li
+								a(href="work.html") Work
+							li
+								a(href="#") Contact
+
+		div.container
+			div.row
+				div.span12
+					p.lead 
+						| Contact us for a quote...
+			div.row
+				div.span12
+					form.form-horizontal
+		script(src="www/js/jquery.min.js")
+		script(src="www/js/bootstrap.min.js")
+
+
